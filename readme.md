@@ -1,36 +1,42 @@
-# §8.2 Organization-Level Eyeball Ranking
+# ASINT Org-Family Snapshots
 
-Analysis for the IMC 2026 paper: how ASINT's family merges reshape the
-ranking of eyeball ISPs (directly addresses reviewer 30D's "cone-size-only"
-concern).
+Monthly snapshots of the ASINT AS-to-organization clustering, one folder per
+month. Each folder contains a single file:
 
-## Pipeline (planned)
+```
+<YYYY-MM>/saint.org_families.json
+```
 
-1. **`data/`** — inputs
-   - `apnic_aspop.csv` — APNIC stats.labs.apnic.net/aspop per-ASN eyeball
-     share (to be downloaded, ideally dated near 2025-09)
-   - ASINT snapshot (from `../asint/saint.org_families.json` or
-     `/home/yongzhe/as2org_llm/longitivy_analyse/2025-09.json`)
-   - CAIDA baseline (from `../as2org/20250701.as-org2info.jsonl`)
+## File format
 
-2. **`scripts/`** — analysis
-   - `coverage_check.py` — overlap ASN counts between APNIC / ASINT / CAIDA
-   - `org_ranking.py`   — top-N org eyeball share under each mapping
-   - `concentration.py` — top-10/20/50 cumulative share, HHI
-   - `case_study.py`    — find named ISPs with biggest rank jump
+A JSON array of **alias-group** records. Each record has:
 
-3. **`results/`** — outputs
-   - `coverage.csv`
-   - `top_orgs_asint_vs_baseline.csv`
-   - `concentration.csv`
-   - `case_studies.md`
+| Field           | Type      | Description                                                                                                                              |
+| --------------- | --------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| `alias_id`      | int       | Alias-group identifier. One alias group ≈ one operating entity.                                                                          |
+| `org_family_id` | int       | Org-family identifier. Multiple alias groups sharing the same `org_family_id` are linked by parent/child ownership and form one family.  |
+| `asn_entries`   | list[obj] | ASNs belonging to this alias group, each with `asn`, `as_name`, `org_name`, `rir`.                                                       |
+| `parent`        | list[int] | `alias_id`s of parent alias groups (ownership / acquirer side).                                                                          |
+| `children`      | list[int] | `alias_id`s of child alias groups (subsidiary side).                                                                                     |
+| `_id`           | obj       | Internal record id; can be ignored.                                                                                                      |
 
-## Decisions still needed
+Example record:
 
-- **Snapshot alignment**: paper §8.1 uses 2026-01; reviewer data may require
-  2025-09 to match APNIC publication date. Prefer one:
-  - 2025-09 ASINT (from `longitivy_analyse/2025-09.json`, 82,527 families)
-  - 2026-01 ASINT (from `../asint/saint.org_families.json`, 82,527 families)
-- **APNIC data source**: CSV download URL? Version/date?
-- **Baseline**: CAIDA `20250701.as-org2info.jsonl` (what we have) or a more
-  recent one?
+```json
+{
+  "alias_id": 4622,
+  "org_family_id": 759,
+  "asn_entries": [
+    {"asn": 151205, "as_name": "HSBC-INM-AS-AP", "org_name": "hsbc", "rir": "apnic"}
+  ],
+  "parent": [],
+  "children": [4609]
+}
+```
+
+## Two granularities
+
+- **Alias group** (`alias_id`): tightest grouping — ASNs that belong to the
+  same operating entity.
+- **Org family** (`org_family_id`): broadest grouping — alias groups merged
+  via parent/child links (e.g. a holding company and its subsidiaries).
