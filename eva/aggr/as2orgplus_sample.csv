@@ -1,0 +1,51 @@
+idx,cluster_id,baseline_name,as_count,n_orgs,n_subsumed_asint,orgs,verdict,wrong_asns,notes
+1,ap76,,977,3,3,dod network information center:973 | ukrainian backbone networks llc:3 | whnet telecom serviã§os de telecomunicaã§oes ltda:1,partial,4,DoD anchor (973); Ukrainian Backbone + WHNET Brazil unrelated
+2,ap24,,395,8,3,air force systems networking:237 | centurylink communications llc:92 | level 3 parent llc:40 | dxc us latin america corporation:17 | idt corporation:5 | camara colombiana de informatica y telecomunicaciones ccit:2 | university of california at berkeley:1 | region stockholm:1,partial,100,Air Force (237) + Lumen (132) anchors; DXC/IDT/CCIT/Berkeley/Stockholm + cross-merges
+3,ap680,,292,2,2,headquarters usaisc:290 | nocix llc:2,partial,2,Headquarters USAISC (290) anchor; NOCIX unrelated
+4,ap94,,118,2,1,"jsc ""er-telecom holding"":117 | software partners inc:1",partial,1,ER-Telecom (117) anchor; Software Partners unrelated
+5,ap753,,102,2,2,u s sprint:101 | h3000 tecnologia:1,partial,1,U.S. Sprint (101) anchor; H3000 Tecnologia unrelated
+6,ap10,,48,5,1,gtt americas llc:19 | gtt communications inc:16 | gtt - emea ltd:11 | easynet global services:1 | i-2000 inc:1,partial,1,GTT group + Easynet (acq); I-2000 unrelated
+7,ap66,,27,7,6,ninja-ix corporation:14 | nix cz z s p o:4 | toronto internet exchange community:3 | dns-oarc:2 | ninja-ix services llc:2 | united-ix:1 | tom laermans:1,partial,11,Ninja-IX core (16) anchor; mixed IXP communities (NIX CZ/Toronto IX/DNS-OARC) unrelated
+8,ap128,,23,5,3,rice university:13 | infonet services corporation:7 | carnegie mellon university:1 | emerging markets telecommunication services (emts) limited:1 | hybula b v:1,partial,10,Rice University (13) anchor; Infonet/Carnegie/EMTS/Hybula unrelated
+9,ap157,,21,5,1,megaport (usa) inc:8 | megaport pty ltd:6 | information system authority:3 | megaport (deutschland) gmbh:3 | informatica bluehosting limitada:1,partial,4,Megaport global (17) anchor; Information System Authority + Bluehosting unrelated
+10,ap316,,20,5,2,think on inc:12 | adobe inc:4 | manitoba hydro international ltd:2 | adobe systems inc:1 | web side story inc:1,partial,8,ThinkOn (12) anchor; Adobe + Manitoba Hydro + Web Side Story unrelated subgroups
+11,ap115,,17,5,2,load me sp z o o:9 | harvard university:3 | wnet telecom usa corp:2 | eser telekom sanayi ve ticaret a s:2 | internet awareness inc:1,partial,8,Load Me (9) anchor; Harvard + WNet + Eser + Internet Awareness unrelated
+12,ap34,,11,2,2,ghostnet gmbh:9 | internet ag global network:2,partial,2,GhostNet (9) anchor; Internet AG unrelated
+13,ap88,,9,2,1,team blue denmark a s:8 | s c teletrans s a:1,partial,1,Team Blue Denmark (8) anchor; SC Teletrans unrelated
+14,ap455,,8,2,2,purevoltage hosting inc:7 | easyvm llc:1,partial,1,PureVoltage (7) anchor; EasyVM unrelated
+15,ap18,,8,2,1,iomart managed services limited:5 | iomart cloud services limited:3,correct,0,Iomart Managed + Cloud — same Iomart group
+16,ap22,,8,2,1,amazon com inc:5 | red matter limited:3,partial,3,Amazon (5) anchor; Red Matter unrelated
+17,ap563,,7,2,2,terago networks inc:5 | buzmo llc:2,partial,2,TeraGo (5) anchor; Buzmo unrelated
+18,ap280,,7,2,1,john macleod trading as howick digital:4 | alentus corporation:3,partial,3,John MacLeod / Howick Digital (4) anchor; Alentus unrelated
+19,ap605,,6,2,1,drustvo za telekomunikacije orion telekom doo beograd-zemun:5 | alexander huynh:1,partial,1,Orion Telekom Beograd (5) anchor; Alexander Huynh unrelated
+20,ap205,,5,2,2,sd data center:3 | talia limited:2,partial,2,SD Data Center (3) anchor; Talia unrelated
+21,ap553,,5,2,2,rhythmone llc:4 | intervoice inc:1,partial,1,RhythmOne (4) anchor; Intervoice unrelated
+22,ap557,,4,2,1,june slater:3 | prestige brands inc:1,partial,1,June Slater (3) anchor; Prestige Brands unrelated
+23,ap667,,4,4,4,support internet:1 | conectarse srl:1 | gonzalez jorge tomas:1 | ispcom s a:1,wrong,3,4 unrelated single-AS orgs (Support Internet/Conectarse/Gonzalez/ISPCom)
+24,ap720,,4,2,2,netminders server hosting:3 | cafe-7040:1,partial,1,NetMinders (3) anchor; Cafe-7040 unrelated
+25,ap131,,4,4,3,pt veltratel:1 | pt herza digital indonesia:1 | pt herza intermedia nusantara:1 | herza cloud:1,partial,1,Herza Indonesian group (3); PT Veltratel unrelated
+26,ap19,,4,2,1,sakura ltd:3 | comtec enterprises ltd:1,partial,1,Sakura (3) anchor; Comtec Enterprises unrelated
+27,ap478,,4,2,2,pathconnect gmbh:3 | bart vrancken trading as mlab:1,partial,1,PathConnect (3) anchor; Bart Vrancken trading as MLAB unrelated
+28,ap587,,3,2,2,31173 services ab:2 | stm networks llc:1,partial,1,31173 Services (2) anchor; STM Networks unrelated
+29,ap30,,3,2,2,tdf sasu:2 | qbrick ab:1,partial,1,TDF SASU (2) anchor; Qbrick unrelated
+30,ap561,,3,2,1,divinetworks ltd:2 | r l internet & networks ltd:1,partial,1,DiviNetworks (2) anchor; R L Internet unrelated
+31,ap582,,3,2,2,adita tarkono putra:2 | netskin gmbh:1,partial,1,Adita Tarkono Putra (2) anchor; Netskin unrelated
+32,ap305,,3,2,1,fredrik holmqvist:2 | sitab infrastruktur:1,partial,1,Fredrik Holmqvist (2) anchor; Sitab Infrastruktur unrelated
+33,ap133,,3,2,1,moody's corp:2 | webdiscount gmbh & co kg:1,partial,1,Moody's Corp (2) anchor; WebDiscount unrelated
+34,ap256,,3,2,2,denit b v:2 | uniserver internet b v:1,partial,1,Denit (2) anchor; Uniserver unrelated
+35,ap749,,3,3,3,siemens power corp:1 | university of toledo:1 | stichting eventinfra:1,wrong,2,3 unrelated orgs (Siemens/U Toledo/Stichting Eventinfra)
+36,ap439,,3,2,2,bluefur:2 | hopkinsville electric system:1,partial,1,BlueFur (2) anchor; Hopkinsville Electric unrelated
+37,ap121,,3,2,1,staclar carrier ltd:2 | novecore ltd:1,partial,1,Staclar Carrier (2) anchor; Novecore unrelated
+38,ap729,,3,3,2,epsilon telecommunications (sp) pte ltd:1 | epsilon telecommunications ltd:1 | epsilon us inc:1,correct,0,Epsilon Telecommunications variants — same group
+39,ap489,,2,2,2,another corporate isp llc:1 | crystal broadband networks inc:1,partial,1,Two unrelated US ISPs
+40,ap497,,2,2,2,4830 org e v:1 | freifunk lippe e v:1,partial,1,4830 org e.V. + Freifunk Lippe e.V. — different German nonprofits
+41,ap340,,2,2,2,datum:1 | infoobjects inc:1,partial,1,Datum + InfoObjects unrelated
+42,ap114,,2,2,2,nyc mesh inc:1 | overkill interbuzz llc:1,partial,1,NYC Mesh + Overkill InterBuzz unrelated
+43,ap589,,2,2,2,semrush inc:1 | mocan media llc:1,partial,1,Semrush + Mocan Media unrelated
+44,ap277,,2,2,2,digital residence b v:1 | vertixo bv:1,partial,1,Digital Residence + Vertixo unrelated
+45,ap457,,2,2,2,haosing technology co ltd:1 | jingzhi technology co ltd:1,partial,1,Two unrelated Chinese tech companies
+46,ap496,,2,2,2,butterfly research:1 | networkbay l l c:1,partial,1,Butterfly Research + NetworkBay unrelated
+47,ap475,,2,2,2,session telecoms(pty) ltd:1 | beonline twenty four seven internet group:1,partial,1,Session Telecoms + BeOnline 24/7 unrelated
+48,ap649,,2,2,1,vision net:1 | facundo valentini (vallenet):1,correct,0,Vision Net + Facundo Valentini (founder of Vallenet)
+49,ap35,,2,2,1,supranet communications inc:1 | mad city broadband inc:1,partial,1,SupraNet + Mad City Broadband unrelated
+50,ap458,,2,2,2,piotr macha:1 | geekcloud sp z o o:1,correct,0,Piotr Macha (founder) + GeekCloud

@@ -1,0 +1,51 @@
+idx,cluster_id,baseline_name,as_count,n_orgs,n_subsumed_asint,orgs,verdict,wrong_asns,notes
+1,sib12085,EQUINIX-EC-DC,74,7,1,equinix inc:44 | equinix asia pacific pte ltd:10 | equinix (emea) acquisition enterprises b v:8 | equinix brasil:5 | mainone cable company:4 | equinix colombia inc sucursal colombia:2 | packet host inc:1,correct,0,Equinix + MainOne (acq 2022) + Packet Host (acq 2020) — all Equinix
+2,sib12469,INFONET-NETHERLAND,61,8,1,gtt americas llc:19 | gtt communications inc:16 | gtt - emea ltd:15 | gtt communications netherlands b v:4 | i-2000 inc:2 | accelerated connections inc:2 | ipnetzone:2 | easynet global services:1,partial,6,GTT proper + Easynet (acq); I-2000 + Accelerated Connections + IPNetzone unrelated
+3,sib140307,PIE-KARACHI-AS-AP,60,5,1,de-cix management gmbh:39 | de-cix north america inc:11 | pakistan telecom company limited:4 | de-cix brasil ltda:4 | de-cix interconnection mexico s de r l de c v:2,partial,4,DE-CIX global; Pakistan Telecom unrelated
+4,sib12222,AKAMAI,51,3,2,akamai technologies inc:30 | akamai international b v:20 | linode llc:1,correct,0,Akamai + Linode (acq 2022)
+5,sib262272,,36,2,2,vero s a:23 | america-net ltda:13,correct,0,VERO acquired America-NET (2022)
+6,sib201813,HOSTING,36,2,1,contrust solutions s r l:34 | sc itns net srl:2,partial,2,Contrust Solutions vs SC ITNS Net — different Romanian SRLs
+7,sib11158,NETDEPON,35,3,3,ntt america inc:21 | ntt global networks incorporated:7 | ntt global networks private limited:7,correct,0,NTT America + NTT Global Networks — same NTT
+8,sib12435,TELIAMOBILE-DK,33,5,1,telia company ab:8 | telia norge as:8 | telia finland oyj:7 | telia cygate oy:7 | telia eesti as:3,correct,0,Telia group (Sweden/Norway/Finland/Estonia)
+9,sib11539,LIAISONBGP,24,3,1,open text corporation:22 | webroot software inc:1 | webroot services ltd:1,correct,0,OpenText + Webroot (Carbonite acq 2019)
+10,sib12536,UNSPECIFIED,21,4,2,ix reach ltd:14 | bso network solutions sas:4 | sas intercloud:2 | intercloud llc:1,partial,3,IX Reach (acq by BSO 2020) + BSO; SAS InterCloud + InterCloud LLC separate
+11,sib18062,GRANGENET-AS-AP,19,2,1,australian academic and research network:18 | the university of the south pacific:1,partial,1,AARNet (Australian academic); USP unrelated
+12,sib272806,,19,3,1,pit peru s a c:9 | pit colombia sas:6 | punto de trafico de intercambio de internet guatemala s a (pit guatemala):4,wrong,10,PIT regional IXPs (Peru/Colombia/Guatemala) — separate orgs in different countries
+13,sib11888,,19,3,2,cablemas telecomunicaciones sa de cv:11 | television internacional s a de c v:7 | cablevisiã³n s a de c v:1,partial,1,Cablemás + Television Internacional (Megacable group); Cablevision separate
+14,sib132389,CMI-INT-AS,18,7,1,china mobile:7 | china mobile international limited:6 | china mobile international (russia) llc:1 | china mobile international (brazil) tec da inf ltd:1 | cm international mãxico information technology s de r l de c v:1 | china mobile international (panama) s a:1 | china mobile international south africa (pty) ltd:1,correct,0,China Mobile international subsidiaries
+15,sib13017,CABLE-AND-WIRELESS,18,2,1,vodafone enterprise equipment limited:10 | vodafone limited:8,correct,0,Vodafone Enterprise + Vodafone
+16,sib12350,VTX-NETWORK,17,2,2,celeste sas:14 | vtx services sa:3,partial,3,Celeste vs VTX Services — different French/Swiss telecoms
+17,sib133086,DCMSB-MY,12,3,1,de cix malaysia sdn bhd:6 | de-cix asia pte ltd:4 | de-cix singapore pte ltd:2,correct,0,DE-CIX Asia Pacific
+18,sib12009,NWF-EONI-ASN-1,12,2,1,ziply fiber:9 | wholesail networks llc:3,correct,0,Ziply Fiber acquired WholeSail Networks (2024)
+19,sib12395,PANDEMONIUM-AS,11,3,1,adista sas:9 | cyberprotect sas:1 | waycom:1,correct,0,"Adista group (CyberProtect, Waycom acquisitions)"
+20,sib12792,CINET-AS,8,3,1,netassist limited:6 | netassist llc:1 | netassist international eood:1,correct,0,NetAssist variants
+21,sib133153,IPv4Superhub,7,2,1,ipv4 superhub limited:6 | ysz trading co limited:1,partial,1,IPv4 SuperHub + YSZ Trading unrelated
+22,sib14117,,7,4,2,gtd internet s a:3 | gtd perã s a:2 | telefonica del sur s a:1 | manquehuenet:1,partial,2,GTD group; Telefonica del Sur + ManquehueNet unrelated
+23,sib201378,ZAJIL02,6,3,1,zajil international telecom company kscc:4 | hanhaa ltd:1 | nova networks:1,partial,2,Zajil Telecom (4) anchor; Hanhaa + Nova Networks unrelated
+24,sib10482,SHAW-COMMUNICATIONS,6,4,2,shaw communications:3 | shaw communications inc:1 | shaw telecom g p:1 | shaw cable systems ltd:1,correct,0,Shaw Communications variants
+25,sib29550,SIMPLYTRANSIT,6,3,2,catalyst2 services limited:3 | team blue carrier limited:2 | ukdedicated ltd:1,partial,1,Catalyst2 + Team Blue Carrier (acq); UKDedicated less certain
+26,sib196628,EURO-POP-1,6,2,1,southern communications ltd:5 | pink connect ltd:1,correct,0,Southern Communications acquired Pink Connect (2018)
+27,sib10204,ARCNET-NTTMSC-MY,6,3,2,ntt msc sdn bhd:2 | ntt global data centers emea uk ltd:2 | ntt global data centers emea gmbh:2,correct,0,NTT MSC + NTT Global Data Centers EMEA — all NTT
+28,sib206067,H3GUK,5,2,2,hutchison 3g uk limited:4 | uk broadband ltd:1,correct,0,Hutchison 3G + UK Broadband (acq 2017)
+29,sib201786,COMLINE-AS,5,3,2,orion telecom llc:2 | orion telecom ltd:2 | ooo comline:1,partial,1,Orion Telecom variants; OOO Comline separate
+30,sib15829,EUTELSAT,5,3,2,eutelsat s a:3 | skylogic s p a:1 | skylogic mediterraneo s r l:1,correct,0,Eutelsat + Skylogic (Eutelsat subsidiary)
+31,sib212271,C1V,5,2,1,cinzia tocci trading as c1v:4 | lumanex srl:1,partial,1,Cinzia Tocci (C1V); Lumanex SRL unrelated
+32,sib25370,PITLINE-AS,5,2,1,pitline ltd:4 | radio-link llc:1,partial,1,PitLine + Radio-Link — different Russian ISPs
+33,sib23076,INIT-PHX2,5,2,1,wi-fiber inc:3 | phoenix internet:2,partial,2,Wi-Fiber vs Phoenix Internet — different US ISPs
+34,sib202409,LOCIX-INTERNET-EXCHANGE,5,3,3,sarah rossius trading as servperso systems:3 | luc pascard:1 | hilko boecker:1,partial,2,Sarah Rossius (founder); Luc Pascard + Hilko Boecker unrelated
+35,sib134688,YOURFIBRE-AS-AP,4,2,1,iseek communications pty ltd:3 | yourfibre pty ltd:1,correct,0,iSeek Communications + YourFibre (acq)
+36,sib136969,KKNETWROK-AS-AP,4,2,2,kk networks (pvt) ltd:3 | lahore express:1,partial,1,KK Networks Pakistan + Lahore Express unrelated
+37,sib1120,ACOnet_Services,4,2,1,aconet:3 | vix route server:1,correct,0,ACOnet + VIX (Vienna IX run by ACOnet)
+38,sib11998,GNB-ORG,4,3,3,province of new brunswick:2 | new brunswick department of education and early childhood development:1 | facilicorpnb ltd ltee:1,correct,0,Province of New Brunswick gov entities
+39,sib267037,,3,2,2,vla telecomunicacoes ltda:2 | acitel telecomunicaãoes ltda:1,partial,1,VLA + ACITEL — different Brazilian telcos
+40,sib26556,HYEHOST,3,3,2,hyehost llc:1 | hyehost ltd:1 | zwick tech labs llc:1,partial,1,HyeHost variants + Zwick Tech Labs unrelated
+41,sib208843,ALPHASTRIKE-RESEARCH,3,2,2,alpha strike labs gmbh:2 | alphastrike-hk:1,correct,0,Alpha Strike Labs + Alphastrike-HK
+42,sib265171,,3,2,2,sitelbra ltda:2 | transat telecomunicacoes via satelite eireli:1,partial,1,Sitelbra + Transat — different Brazilian
+43,sib211853,MATTHEW-FREE,2,2,2,ip khnykin vitaliy yakovlevich:1 | matthew-free:1,partial,1,Two unrelated persons
+44,sib206691,TAJIX-AS,2,2,2,"opened joint stock company ""tojiktelecom"":1 | tajix-as:1",correct,0,Tojiktelecom + TAJIX-AS (Tajik IX run by Tojiktelecom)
+45,sib19518,ROCKISLAND,2,2,2,semaphore corporation:1 | rock island communications:1,partial,1,Semaphore + Rock Island unrelated
+46,sib9400,CORENETINC-AS-AP,2,2,1,corenet inc:1 | tokyo online co ltd:1,partial,1,CoreNet + Tokyo Online — different Japanese
+47,sib59881,HLC,2,2,1,happy life ug:1 | kevin buehl:1,partial,1,Happy Life UG + Kevin Buehl uncertain
+48,sib10961,BGP-AS,2,2,2,boston university:1 | boston gigapop:1,correct,0,Boston University + Boston GigaPOP (BU-run)
+49,sib262331,,2,2,2,duratex s a:1 | ceramica urussanga sa:1,partial,1,Duratex + Ceramica Urussanga uncertain
+50,sib136496,DPU-AS-AP,2,2,1,ksc commercial internet co ltd:1 | dhurakij pundit university:1,partial,1,KSC + Dhurakij Pundit Univ unrelated

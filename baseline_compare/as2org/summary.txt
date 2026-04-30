@@ -1,0 +1,20 @@
+==== Cluster Comparison Summary ====
+Our clusters (after filter): 82317
+Their clusters (after filter): 89486
+Common ASNs: 111942
+Singleton clusters (ours): 72051
+Singleton clusters (theirs): 81129
+Multi-member clusters (ours): 10266
+Multi-member clusters (theirs): 8357
+
+Identical multi-member clusters: 6043
+Our unique clusters (>1): 4223
+Their unique clusters (>1): 2314
+Our clusters fully covering theirs: 4223 (multi=2314, single=9078, ASNs influenced=20626)
+Their clusters fully covering ours: 0 (multi=0, single=0, ASNs influenced=0)
+Remaining unmatched ours: 0
+Remaining unmatched theirs: 0
+
+Avg cluster size (ours, all): 1.36
+Avg cluster size (theirs, all): 1.25
+====================================
