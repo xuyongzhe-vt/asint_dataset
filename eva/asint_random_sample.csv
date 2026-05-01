@@ -1,151 +1,151 @@
-idx,family_id,as_count,n_orgs,alias_links,pc_links,source,orig_idx,orgs,verdict,wrong_asns,double_check,notes
-1,1643,349,3,3,0,kept,1,verisign global registry services:338 | verisign infrastructure & operations:7 | verisign inc:4,correct,0,verified,VeriSign variants
-2,479,302,11,45,10,kept,2,china telecom:284 | china telecom (group):5 | china telecom global limited:4 | no 31 jin-rong street:2 | china telecom next generation carrier network:1 | china telecom(group):1 | china telecom group:1 | iot jiangsu network chinatelecom p r china:1 | iot guangdong network chinatelecom p r china:1 | china telecom (americas) corporation:1 | china telecom(macau) company limited:1,correct,0,verified,China Telecom variants
-3,1734,219,2,1,0,kept,3,verizon business:218 | ans communications inc:1,correct,0,verified,ANS Comm acquired by WorldCom→Verizon (2006)
-4,888,124,2,0,1,new,,"pjsc rostelecom:122 | pjsc ""bashinformsvyaz"":2",correct,0,verified,Bashinformsvyaz subsidiary of Rostelecom (acq 2011)
-5,1549,94,3,3,0,kept,5,mts pjsc:92 | mobile telesystems jllc:1 | mts ojsc:1,correct,0,verified,MTS Russia variants
-6,494,89,6,6,8,kept,7,oath holdings inc:49 | yahoo inc:25 | yahoo-uk limited:11 | aabaco small business llc:2 | viaweb:1 | yahoo:1,correct,0,verified,"Yahoo/Oath umbrella (Aabaco spin, Viaweb acq)"
-7,1198,88,10,45,0,kept,6,orange s a:61 | global one:7 | equant inc:6 | orange business services sa:4 | orange business services u s inc:4 | orange business communications technology limited:2 | llc orange business services:1 | orange business digital norway as:1 | orange business digital sweden ab:1 | equant brasil ltda:1,correct,0,verified,Orange/Equant/Global One — Equant rebranded as Orange Business Services 2006
-8,259,75,12,4,20,kept,8,oracle corporation:56 | cerner corporation:5 | responsys inc:3 | cerner corporation pty limited:3 | microset systems inc:1 | portal systems inc:1 | j d edwards & company:1 | sparkline network:1 | mysql ab:1 | cerner limited:1 | aconex ltd:1 | oracle america inc:1,correct,0,verified,Oracle + Cerner/Responsys/JDE/MySQL/Aconex acquisitions
-9,753,71,2,0,1,kept,9,vercara llc:66 | digicert inc:5,correct,0,verified,DigiCert acquired Vercara 2024
-10,14,68,5,1,6,kept,10,microsoft corporation:64 | zenimax media incorporated:1 | zenimax:1 | zenimax germany gmbh:1 | id software:1,correct,0,verified,Microsoft acquired ZeniMax 2021; id Software is ZeniMax subsidiary
-11,634,66,3,1,2,new,,hp inc:63 | entserv deutschland gmbh:2 | poly informatics private limited:1,partial,2,verified,"EntServ Deutschland is HPE/DXC (post-2017 spinoff), not HP Inc"
-12,14186,63,1,0,0,kept,11,apogee telecom inc:63,correct,0,verified,single-org
-13,3434,59,2,1,0,kept,12,true internet corporation co ltd:54 | true international gateway co ltd:5,correct,0,verified,True Group Thailand
-14,22,58,26,22,20,new,,vodafone limited:8 | vodafone group services gmbh:6 | vodafone gmbh:4 | vodafone net iletisim hizmetler as:4 | vodafone czech republic a s:3 | vodafone ireland limited:3 | vodafone italia s p a:3 | vodafone data:3 | vodafone ono s a:3 | vodafone romania s a:3 | vodafone:2 | vodafone west gmbh:2 | fastweb spa:1 | you broadband & cable india ltd:1 | vodafone ltd:1 | vodafone group plc:1 | vodafone deutschland gmbh:1 | vodacom lesotho (pty) ltd:1 | vodafone india services private ltd:1 | tks tele kommunikation und service s r l:1 | fastweb telecom sistemas de comunicaã§ãµes ltda:1 | tks network:1 | nowo communications s a:1 | vodacom tanzania ltd:1 | magalajo s a:1 | ghana telecommunications company limited:1,partial,2,verified,Ghana Telecommunications (Vodafone Ghana sold 2023) + Fastweb Brasil (different from Italian Fastweb)
-15,1582,57,3,3,0,new,,office of info tech admin for educational development:48 | uninet:8 | uninet sp z o o:1,partial,9,verified,Office of Info Tech vs Uninet x2 — link rationale insufficient
-16,7087,47,1,0,0,kept,14,shared services canada:47,correct,0,verified,single-org
-17,641,44,8,21,7,kept,15,zayo bandwidth:26 | zcolo:6 | zayo infrastructure france sa:3 | network transit holdings llc:3 | globalways gmbh:2 | zayo group llc:2 | fibernet broadband ltd:1 | fibernet telecom:1,correct,0,verified,Zayo group + Fibernet (Zayo brand)
-18,15,44,5,0,4,kept,16,tegna inc:40 | s b multimedia pvt ltd:1 | radiohio incorporated:1 | maxweb multimedia private limited:1 | wbns tv inc:1,partial,2,verified,S B Multimedia + Maxweb Multimedia (Indian) unrelated to Tegna US TV
-19,1197,42,10,45,0,kept,17,ntt communications corporation:13 | dimension data:8 | ntt australia solutions pty ltd:6 | pt ntt indonesia:5 | ntt singapore pte ltd:3 | ntt ltd japan corporation:2 | ntt myanmar co ltd:2 | ntt communications corporation digital transformation:1 | ntt communications corp:1 | ntt cloud communications us inc:1,correct,0,verified,NTT Communications + Dimension Data + regional NTT subsidiaries
-20,52,42,22,2,29,new,,marlink as:9 | hyve ltd:4 | virtual radiologic corporation:4 | business zone limited:3 | cognizant technology solutions india pvt ltd:3 | marlink-itc inc:2 | tmg health inc:2 | cognizant trizetto software group inc:1 | belcan corporation:1 | higher one inc:1 | magenic technologies inc:1 | blackboard inc:1 | blackboard:1 | sweetwater sound inc:1 | cognizant technology solution romania s r l:1 | cognizant:1 | atg communications llc:1 | glm media:1 | lev telecom:1 | netspot pty ltd:1 | lev networks llc:1 | providence equity partners llc:1,partial,20,verified,Mixed PE/independent: Cognizant/Blackboard/Belcan/Magenic/Sweetwater not under Providence Equity
-21,151,40,13,5,22,new,,cisco systems inc:15 | cisco webex llc:6 | cisco systems ironport division:5 | cisco opendns llc:3 | cisco systems cloud division:2 | webex worldwide b v:2 | aironet:1 | webex broadband internet:1 | stratacom inc:1 | stratacom communications inc:1 | webex communications inc:1 | geotelco limited:1 | cisco systems norway as:1,correct,0,verified,Cisco + Webex/IronPort/OpenDNS/Aironet/Stratacom acquisitions
-22,928,38,3,1,2,kept,20,"joint stock company transtelecom:35 | limited liability company ""ttk-svyaz"":2 | jsc transtelecom:1",correct,0,verified,TransTelecom Russia variants
-23,29,35,22,9,20,kept,23,ntt data information processing services private limited:8 | ntt security gmbh:3 | ntt security (us) inc:2 | ntt new zealand limited:2 | hknet co ltd:2 | ntt cloud infrastructure inc:2 | ntt do brasil telecomunicacoes ltda:1 | accesskenya group ltd is an isp serving:1 | ntt belgium sa:1 | ntt data romania s a:1 | ntt vietnam communication company limited:1 | is internetsolutions limited:1 | internet solutions (kenya):1 | dimension data ltd:1 | intra data communication:1 | data dimensions corp:1 | ntt bizlink inc:1 | ntt security (switzerland) ag:1 | dimension data asia pacific pte ltd:1 | ntt taiwan ltd:1 | ntt security (australia) pty ltd:1 | dimension enterprises inc:1,correct,0,verified,NTT Data + NTT Security + Dimension Data (NTT subsidiary)
-24,6317,35,1,0,0,kept,24,jab wireless inc:35,correct,0,verified,single-org
-25,1291,35,4,6,0,new,,slush technologies as v4 transit:27 | citylink ltd:5 | citylink co ltd:2 | citylink:1,correct,0,verified,Slush + CityLink Russian ISP brands; ASINT linkage accepted absent contrary evidence
-26,11735,33,1,0,0,kept,26,islamic republic of iran post pjsc:33,correct,0,verified,single-org
-27,1469,32,3,3,0,kept,27,gonet:30 | pt gonet teknologi indonesia:1 | marvicnet cia ltda:1,partial,1,verified,Marvicnet Cia Ltda (Ecuador) unrelated to Gonet
-28,281,32,4,0,3,new,,national aeronautics and space administration:28 | jet propulsion laboratory:2 | nasa deep space network (dsn):1 | nasa goddard space flight center:1,correct,0,verified,NASA/JPL/Goddard/Deep Space Network
-29,361,31,3,0,2,kept,29,electronic arts inc:29 | electronic arts ireland limited:1 | electronic arts canada:1,correct,0,verified,Electronic Arts + EA Ireland + EA Canada
-30,15192,31,1,0,0,kept,30,cabase camara arg de base de datos y serv en linea:31,correct,0,verified,single-org
-31,1262,31,5,10,0,kept,32,telia company ab:8 | telia norge as:8 | telia finland oyj:7 | telia cygate oy:7 | telia cygate ab:1,correct,0,verified,Telia group
-32,102,31,25,1,45,kept,34,unitedhealth group incorporated:5 | catamaran llc:2 | nucleus cloud llc:2 | ingenix inc:1 | kelsey-seybold clinic:1 | amedisys inc:1 | humedica inc:1 | diplomat pharmacy inc:1 | definity health:1 | diplomat distributors (1968) ltd:1 | atrius health inc:1 | alere health llc:1 | change healthcare:1 | monarch healthcare:1 | medica health plans:1 | the advisory board company:1 | the corvallis clinic:1 | optumserve health services inc:1 | orthoalliance mso llc:1 | healthmarkets inc:1 | navihealth inc:1 | lhc group:1 | unitedhealthcare:1 | geha:1 | caremount medical p c:1,partial,1,verified,UnitedHealth + Optum acquisitions; Diplomat Distributors 1968 (Israel) unrelated
-33,12487,30,1,0,0,new,,merit network inc:30,correct,0,verified,single-org
-34,137,28,23,3,22,kept,28,unicef:3 | sdnp bangladesh:3 | international atomic energy agency:2 | food and agriculture organization of the united nations:1 | united nations industrial development organization:1 | undp:1 | united nations economic commission for africa:1 | international civil aviation organization:1 | cepal naciones unidas:1 | united nations world food programme:1 | united nations office at vienna:1 | united nation-escap:1 | united nations:1 | united nations office nairobi (unon):1 | united nations high commissioner for refugees:1 | united nations development program:1 | united nations development programme:1 | u n d p (united nations development programme):1 | telecommunication union ltd:1 | united nations children's fund (unicef):1 | union postale universelle:1 | united nations system staff college (unssc):1 | international telecommunication union:1,correct,0,verified,UN system organizations (UN umbrella)
-35,19337,22,1,0,0,kept,36,tierpoint llc:22,correct,0,verified,single-org
-36,1534,18,3,3,0,kept,37,telus communications inc:16 | llc o-net:1 | onet inc:1,partial,2,verified,LLC O-Net (Russia) + Onet Inc unrelated to Telus Canada
-37,1193,17,13,78,0,kept,38,digicel st lucia ltd:3 | digicel jamaica:2 | antigua wireless ventures ltd:2 | digicel pacific ltd:1 | digicel nauru corporation:1 | digicel (aus) pty ltd:1 | digicel cayman limited:1 | transact ltd:1 | digicel barbados ltd:1 | digicel turks and caicos ltd:1 | digicel trinidad and tobago ltd:1 | digicel suriname nv:1 | new millennium telecom services n v:1,correct,0,verified,Digicel regional + Antigua Wireless Ventures (acq 2017)
-38,13019,16,1,0,0,kept,39,network information center mã©xico:16,correct,0,verified,single-org
-39,1194,15,13,78,0,kept,40,chinanet guangdong province network:3 | chinanet hubei province network:1 | chinanet guizhou province network:1 | chinanet hubei province wuhan network:1 | chinanet hubei province shiyan network:1 | chinanet hubei province yichang network:1 | chinanet hubei province huanggang network:1 | chinanet hubei province enshi network:1 | chinanet hubei province xiantao network:1 | chinanet guangdong province dongguan man network:1 | chinanet guangdong province guangzhou man network:1 | chinanet guangdong province shenzhen man network:1 | chinanet guangdong province zhusanjiao man network:1,correct,0,verified,Chinanet province networks (China Telecom)
-40,45,15,15,2,26,kept,41,samsung electronics america inc:1 | joyent inc:1 | lexicon international inc:1 | ast group capital too:1 | harman international industries inc:1 | harman international industries:1 | harman connected services corporation india private limited:1 | samsung r&d institute india-bangalore private limited:1 | samsung austin semiconductor llc:1 | samsung research america inc:1 | tws technologies b v:1 | samsung austin research and development center:1 | samsung electronics:1 | samsung electronics co:1 | mwm communication sarl:1,correct,0,verified,Samsung core + Joyent/Harman acquisitions; small entries traced via Harman
-41,1195,14,12,66,0,kept,42,watchtower bible and tract society of south africa:2 | jehovas zeugen in deutschland k d o r:2 | wachttoren- bijbel en traktaatgenootschap kerkgenootschap:1 | watch tower bible and tract society of britain:1 | watch tower bible and tract society of korea:1 | watch tower bible and tract society of the philippines:1 | the watch tower bible and tract society of india:1 | watchtower bible and tract society of new york inc:1 | watch tower bible and tract society of canada:1 | watch tower bible and tract society:1 | la torre del vigia a r:1 | associaã§ã£o torre de vigia de bã­blias e tratados:1,correct,0,verified,Watchtower Bible / Jehovah's Witnesses orgs across countries
-42,1279,14,4,6,0,new,,tucows com co:7 | ting fiber inc:5 | cedar networks:1 | blue ridge websoft llc:1,correct,0,verified,Tucows/Ting + acquired Cedar Networks + Blue Ridge Websoft
-43,1196,13,12,66,0,kept,43,chinanet sichuan province luzhou man network:2 | chinanet core wan central:1 | chinanet sichuan province mianyang man network:1 | chinanet sichuan province guangyuan man network:1 | chinanet sichuan province neijiang man network:1 | chinanet sichuan province leshan man network:1 | chinanet sichuan province meishan man network:1 | chinanet sichuan province dazhou man network:1 | chinanet sichuan province yaan man network:1 | chinanet sichuan province bazhong man network:1 | chinanet sichuan province ziyang man network:1 | chinanet sichuan province ganzi man network:1,correct,0,verified,Chinanet Sichuan province networks (China Telecom)
-44,1199,12,11,55,0,kept,44,deloitte & touche south africa:2 | deloitte services wirtschaftsprufungs gmbh:1 | deloitte llp:1 | deloitte touche tohmatsu services llc:1 | deloitte advisory and management consulting ltd:1 | deloitte & touche:1 | deloitte gmbh wirtschaftspruefungsgesellschaft:1 | deloitte touche tohmatsu services inc:1 | deloitte tohmatsu group llc:1 | deloitte & touche ltda:1 | deloitte consulting india pvt ltd:1,correct,0,verified,Deloitte cross-RIR family
-45,1202,12,7,21,0,kept,45,powernet:3 | llc powernet:3 | powernet telecom:2 | powernet ltd:1 | phs internet e suprimentos ltda - me:1 | f g telecomunicacao ltda:1 | powernet telecomunicacoes:1,partial,3,verified,Cross-region collision: Powernet Russia variants vs PHS/FG/Powernet Telecomunicacoes (Brazil)
-46,1201,11,9,36,0,kept,46,chinanet neimenggu province man network:3 | chinanet fujian province quanzhou idc network:1 | chinanet fujian province zhangzhou idc network:1 | chinanet zhejiang province lishui man network:1 | chinanet sichuan province deyang man network:1 | chinanet hubei province xianning network:1 | chinanet yunnan province idc1 network:1 | chinanet 5g iot guangzhou node:1 | chinanet 5g iot nanjing node:1,correct,0,verified,Chinanet province networks (China Telecom)
-47,113,9,7,3,5,new,,fannie mae:3 | comptroller of the currency:1 | treasury limited:1 | the treasury:1 | treasury department:1 | united states department of the treasury:1 | internal revenue service:1,partial,2,verified,US Treasury bureaus + Fannie Mae OK; Treasury Limited / The Treasury non-US
-48,6514,8,1,0,0,new,,macquarie technology operations pty limited:8,correct,0,verified,single-org
-49,562,8,4,0,3,new,,university of washington:5 | institute for stem cell biology and regenerative medicine:1 | center for educational leadership and technology:1 | kexp:1,correct,0,verified,University of Washington + UW Medicine (stem cell) + UW Center + KEXP (UW radio)
-50,6899,7,1,0,0,kept,50,advania sverige ab:7,correct,0,verified,single-org
-51,1613,7,3,3,0,kept,51,speedcast australia pty limited:4 | speedcast managed services pty limited:2 | speedcast limited:1,correct,0,verified,Speedcast variants
-52,16629,7,1,0,0,new,,llc cifrovie seti urala:7,correct,0,verified,single-org
-53,24730,6,1,0,0,kept,53,svensk teleutveckling & produktinnovation stupi ab:6,correct,0,verified,single-org
-54,881,6,2,0,1,kept,54,the new york times company:5 | boston globe media partners llc:1,partial,1,verified,NYT divested Boston Globe in 2013 (sold to John Henry)
-55,4364,6,3,3,0,kept,55,ntt msc sdn bhd:3 | uab nacionalinis telekomunikaciju tinklas:2 | nt&t:1,partial,2,verified,UAB Nacionalinis Telekomunikaciju Tinklas (Lithuania) unrelated to NTT MSC
-56,26835,6,1,0,0,kept,56,guangzhou navigation information technology co ltd:6,correct,0,verified,single-org
-57,21499,6,1,0,0,kept,58,"""r-tel"" llc:6",correct,0,verified,single-org
-58,3539,6,2,1,0,new,,via net communication public limited:3 | vianet inc:3,correct,0,verified,Via Net Communication / Vianet variants — accepted
-59,10716,6,1,0,0,new,,natural wireless llc:6,correct,0,verified,single-org
-60,6777,5,1,0,0,kept,60,saint gobain group digital & it international sas:5,correct,0,verified,single-org
-61,572,5,2,0,1,kept,62,celcom axiata berhad:4 | bridgenet lc:1,partial,1,verified,Bridgenet LC (St Lucia) unrelated to Celcom Axiata (Malaysia)
-62,2722,5,2,1,0,kept,63,navice consulting:4 | james ledger:1,correct,0,verified,James Ledger appears as person — Navice founder/owner
-63,35524,5,1,0,0,kept,64,truenetwork llc:5,correct,0,verified,single-org
-64,5569,5,1,0,0,kept,65,sap australia pty ltd:5,correct,0,verified,single-org
-65,17250,5,1,0,0,kept,66,llc wildberries:5,correct,0,verified,single-org
-66,1413,5,2,1,0,kept,68,"jsc ""alfa-bank"":4 | closed joint stock company ""alfa-bank"":1",correct,0,verified,Alfa-Bank legal-form variants (CJSC vs JSC)
-67,18723,5,1,0,0,kept,70,asiatech data transmission company:5,correct,0,verified,single-org
-68,2733,5,2,1,0,kept,71,"national system of payment cards joint-stock society:3 | joint-stock company ""national system of payment cards"":2",correct,0,verified,NSPK Russia legal-form variants
-69,3314,5,2,1,0,kept,72,syniverse technologies llc:4 | syniverse technologies messaging aps:1,correct,0,verified,Syniverse Technologies variants
-70,85,5,5,1,6,kept,73,o'shaughnessy asset management llc:1 | fiduciary trust company:1 | franklin resources inc:1 | franklin resources:1 | western asset management company:1,correct,0,verified,Franklin Resources + Western Asset (acq via Legg Mason 2020) + O'Shaughnessy (acq 2021) + Fiduciary Trust
-71,40810,5,1,0,0,new,,convergeone holdings inc:5,correct,0,verified,single-org
-72,1246,5,5,10,0,new,,flashnet:1 | flash net telecomunicacoes ltda - me:1 | flashnet empreendimentos ltda:1 | peralta leandro nahuel:1 | flashnet provedor ltda me:1,correct,0,verified,Flashnet Brazilian variants + Peralta Leandro Nahuel (founder)
-73,280,4,3,0,2,kept,74,jsc goznak:2 | federal agency for state property management:1 | jsc preprocessing settlement center:1,correct,0,verified,Russian federal entities (Goznak/Federal Property/PSC) — broad gov ownership
-74,1465,4,3,3,0,kept,76,generali zavarovalnica d d:2 | generali versicherung ag:1 | generali:1,correct,0,verified,Generali insurance group
-75,7908,4,1,0,0,kept,77,ameriprise india llp:4,correct,0,verified,single-org
-76,38996,4,1,0,0,new,,emerald broadband llc:4,correct,0,verified,single-org
-77,29300,4,1,0,0,new,,4on ltd:4,correct,0,verified,single-org
-78,140,4,4,1,4,new,,hdfc securities limited:1 | hdfc life insurance company ltd:1 | hdfc bank ltd:1 | housing development finance corporation limited:1,correct,0,verified,HDFC group (Bank/Life/Securities/HDFC Ltd; HDFC merged into HDFC Bank 2023)
-79,40009,3,1,0,0,kept,78,greenfiber internet & dienste gmbh:3,correct,0,verified,single-org
-80,16541,3,1,0,0,kept,79,terrence de kat:3,correct,0,verified,single-org
-81,13131,3,1,0,0,kept,80,x2nsat inc:3,correct,0,verified,single-org
-82,1476,3,3,3,0,kept,81,localnet ltd:1 | globalnet italia s r l:1 | localnet telecom ltda:1,wrong,2,verified,Localnet Ltd vs Globalnet Italia vs Localnet Telecom Brazil — three separate companies
-83,12308,3,1,0,0,kept,82,gameserverkings:3,correct,0,verified,single-org
-84,418,3,3,0,2,kept,85,burroughs inc:1 | loomis ab:1 | loomis armored us llc:1,correct,0,verified,Loomis acquired Burroughs Inc (2024)
-85,1704,3,2,1,0,kept,86,air link communications:2 | air link networks:1,correct,0,verified,Air Link variants
-86,35071,3,1,0,0,kept,87,datavail infotech pvt ltd:3,correct,0,verified,single-org
-87,2237,3,2,1,0,kept,88,infogenius sas:2 | david moes:1,correct,0,verified,David Moes is person — Infogenius owner
-88,19477,3,1,0,0,kept,89,medialine eurotrade ag:3,correct,0,verified,single-org
-89,24669,3,1,0,0,kept,90,consorci de serveis universitaris de catalunya:3,correct,0,verified,single-org
-90,24754,3,1,0,0,kept,91,zoot enterprises inc:3,correct,0,verified,single-org
-91,26940,3,1,0,0,kept,92,corelight inc:3,correct,0,verified,single-org
-92,44956,3,1,0,0,new,,rapyd europe hf:3,correct,0,verified,single-org
-93,7994,3,1,0,0,new,,nexi payments s p a:3,correct,0,verified,single-org
-94,13023,3,1,0,0,new,,virtury cloud private limited:3,correct,0,verified,single-org
-95,10214,3,1,0,0,new,,eutelsat s a:3,correct,0,verified,single-org
-96,175,3,2,0,1,new,,circle:2 | mypose technologies ad:1,partial,1,verified,Mypose Technologies AD (Bulgaria) unrelated to Circle
-97,929,2,2,0,1,kept,94,lincoln national corporation:1 | jefferson-pilot life insurance company:1,correct,0,verified,Lincoln National acquired Jefferson-Pilot (2006)
-98,3393,2,2,1,0,kept,99,syntax systems ltd llc:1 | syntax systems limited:1,correct,0,verified,Syntax Systems variants
-99,28303,2,1,0,0,kept,100,fortressitx:2,correct,0,verified,single-org
-100,61807,2,1,0,0,kept,102,acem telecom ltda:2,correct,0,verified,single-org
-101,28793,2,1,0,0,kept,103,rapid response monitoring services incorporated:2,correct,0,verified,single-org
-102,3013,2,1,0,0,kept,105,netup llc:2,correct,0,verified,single-org
-103,63121,2,1,0,0,kept,106,vanuatu government:2,correct,0,verified,single-org
-104,35798,2,1,0,0,kept,109,"""permtelecom"" ltd:2",correct,0,verified,single-org
-105,61043,2,1,0,0,kept,110,mcsnet:2,correct,0,verified,single-org
-106,15337,2,1,0,0,kept,111,shopify inc:2,correct,0,verified,single-org
-107,20349,2,1,0,0,kept,113,sleepless server solutions ltd:2,correct,0,verified,single-org
-108,53554,2,1,0,0,kept,114,hostinget telekomunikasyon ticaret ltd sti:2,correct,0,verified,single-org
-109,36443,2,1,0,0,kept,115,j2 global ventures llc:2,correct,0,verified,single-org
-110,5222,2,1,0,0,kept,116,niscayah group ab:2,correct,0,verified,single-org
-111,48460,2,1,0,0,kept,118,airbytes communications srl:2,correct,0,verified,single-org
-112,2214,2,2,1,0,kept,119,dominos's:1 | dominos pizza llc:1,correct,0,verified,Domino's Pizza variants
-113,2250,2,2,1,0,kept,122,deutsche glasfaser wholesale gmbh:1 | deutsche glasfaser business gmbh:1,correct,0,verified,Deutsche Glasfaser variants
-114,565,2,2,0,1,kept,123,telavox ab:1 | erate as:1,correct,0,verified,Telavox acquired Erate AS (2024)
-115,45409,2,1,0,0,kept,124,sdnbucks bv:2,correct,0,verified,single-org
-116,2601,2,2,1,0,kept,127,odete a dos santos me:1 | infinity net:1,correct,0,verified,Brazilian sole proprietor + Infinity Net brand
-117,1027,2,2,0,1,kept,129,oneweb:1 | trustcomm inc:1,correct,0,verified,OneWeb acquired TrustComm (2022)
-118,4311,2,1,0,0,kept,130,bellsouth network solutions inc:2,correct,0,verified,single-org
-119,2060,2,1,0,0,kept,131,callcentric wholesale inc:2,correct,0,verified,single-org
-120,3408,2,2,1,0,kept,132,telecall:1 | telecall telecomunicacoes:1,correct,0,verified,Telecall variants
-121,53914,2,1,0,0,kept,134,ukrainian information systems tov:2,correct,0,verified,single-org
-122,18664,2,1,0,0,kept,135,safaricom limited:2,correct,0,verified,single-org
-123,19442,2,1,0,0,kept,137,daewonpharm:2,correct,0,verified,single-org
-124,27514,2,1,0,0,kept,138,philippine telelgraph & telephone:2,correct,0,verified,single-org
-125,42256,2,1,0,0,kept,140,nhs national services scotland:2,correct,0,verified,single-org
-126,34298,2,1,0,0,kept,141,sofia connect ead:2,correct,0,verified,single-org
-127,5284,2,1,0,0,kept,143,"public joint stock company mining and metallurgical company ""norilsk nickel"":2",correct,0,verified,single-org
-128,11811,2,1,0,0,kept,144,china securities co ltd:2,correct,0,verified,single-org
-129,16361,2,1,0,0,kept,145,hostmein ike:2,correct,0,verified,single-org
-130,59444,2,1,0,0,kept,146,public services commission:2,correct,0,verified,single-org
-131,27861,2,1,0,0,kept,147,"llc ""lure it"":2",correct,0,verified,single-org
-132,25208,2,1,0,0,kept,148,culr llc:2,correct,0,verified,single-org
-133,42687,2,1,0,0,kept,149,"llc ""ukrtele-service"":2",correct,0,verified,single-org
-134,57527,2,1,0,0,kept,150,generacion tecnologica de comunicaciones sociedad limitada:2,correct,0,verified,single-org
-135,55580,2,1,0,0,new,,origo ehf:2,correct,0,verified,single-org
-136,25893,2,1,0,0,new,,zhejiang ruili information technology co ltd:2,correct,0,verified,single-org
-137,34691,2,1,0,0,new,,michigan statewide educational network:2,correct,0,verified,single-org
-138,13017,2,1,0,0,new,,ae olfe teknoloji ve ticaret limited sirketi:2,correct,0,verified,single-org
-139,19012,2,1,0,0,new,,cloud operation pvt ltd:2,correct,0,verified,single-org
-140,3426,2,2,1,0,new,,topnet:1 | topnet mais ltda me:1,correct,0,verified,Topnet variants
-141,17761,2,1,0,0,new,,schaeffer's investment research:2,correct,0,verified,single-org
-142,44826,2,1,0,0,new,,hopus sas:2,correct,0,verified,single-org
-143,37875,2,1,0,0,new,,softsource ltd:2,correct,0,verified,single-org
-144,309,2,2,0,1,new,,empire resorts inc:1 | genting malaysia berhad:1,correct,0,verified,Genting Malaysia owns ~84% of Empire Resorts
-145,66232,2,1,0,0,new,,wintsec technologies llc:2,correct,0,verified,single-org
-146,24132,2,1,0,0,new,,gabon internet exchange (gab-ix):2,correct,0,verified,single-org
-147,25556,2,1,0,0,new,,click software india pvt ltd:2,correct,0,verified,single-org
-148,63260,2,1,0,0,new,,nuvasive inc:2,correct,0,verified,single-org
-149,11852,2,1,0,0,new,,winning partner software development limited:2,correct,0,verified,single-org
-150,26417,1,1,0,0,kept,52,netassist international eood:1,correct,0,verified,single-org
+idx,family_id,as_count,n_orgs,orgs,verdict,wrong_asns,double_check,notes
+1,1643,349,3,verisign global registry services:338 | verisign infrastructure & operations:7 | verisign inc:4,correct,0,verified,VeriSign variants
+2,479,302,11,china telecom:284 | china telecom (group):5 | china telecom global limited:4 | no 31 jin-rong street:2 | china telecom next generation carrier network:1 | china telecom(group):1 | china telecom group:1 | iot jiangsu network chinatelecom p r china:1 | iot guangdong network chinatelecom p r china:1 | china telecom (americas) corporation:1 | china telecom(macau) company limited:1,correct,0,verified,China Telecom variants
+3,1734,219,2,verizon business:218 | ans communications inc:1,correct,0,verified,ANS Comm acquired by WorldCom→Verizon (2006)
+4,888,124,2,"pjsc rostelecom:122 | pjsc ""bashinformsvyaz"":2",correct,0,verified,Bashinformsvyaz subsidiary of Rostelecom (acq 2011)
+5,1549,94,3,mts pjsc:92 | mobile telesystems jllc:1 | mts ojsc:1,correct,0,verified,MTS Russia variants
+6,494,89,6,oath holdings inc:49 | yahoo inc:25 | yahoo-uk limited:11 | aabaco small business llc:2 | viaweb:1 | yahoo:1,correct,0,verified,"Yahoo/Oath umbrella (Aabaco spin, Viaweb acq)"
+7,1198,88,10,orange s a:61 | global one:7 | equant inc:6 | orange business services sa:4 | orange business services u s inc:4 | orange business communications technology limited:2 | llc orange business services:1 | orange business digital norway as:1 | orange business digital sweden ab:1 | equant brasil ltda:1,correct,0,verified,Orange/Equant/Global One — Equant rebranded as Orange Business Services 2006
+8,259,75,12,oracle corporation:56 | cerner corporation:5 | responsys inc:3 | cerner corporation pty limited:3 | microset systems inc:1 | portal systems inc:1 | j d edwards & company:1 | sparkline network:1 | mysql ab:1 | cerner limited:1 | aconex ltd:1 | oracle america inc:1,correct,0,verified,Oracle + Cerner/Responsys/JDE/MySQL/Aconex acquisitions
+9,753,71,2,vercara llc:66 | digicert inc:5,correct,0,verified,DigiCert acquired Vercara 2024
+10,14,68,5,microsoft corporation:64 | zenimax media incorporated:1 | zenimax:1 | zenimax germany gmbh:1 | id software:1,correct,0,verified,Microsoft acquired ZeniMax 2021; id Software is ZeniMax subsidiary
+11,634,66,3,hp inc:63 | entserv deutschland gmbh:2 | poly informatics private limited:1,partial,2,verified,"EntServ Deutschland is HPE/DXC (post-2017 spinoff), not HP Inc"
+12,14186,63,1,apogee telecom inc:63,correct,0,verified,single-org
+13,3434,59,2,true internet corporation co ltd:54 | true international gateway co ltd:5,correct,0,verified,True Group Thailand
+14,22,58,26,vodafone limited:8 | vodafone group services gmbh:6 | vodafone gmbh:4 | vodafone net iletisim hizmetler as:4 | vodafone czech republic a s:3 | vodafone ireland limited:3 | vodafone italia s p a:3 | vodafone data:3 | vodafone ono s a:3 | vodafone romania s a:3 | vodafone:2 | vodafone west gmbh:2 | fastweb spa:1 | you broadband & cable india ltd:1 | vodafone ltd:1 | vodafone group plc:1 | vodafone deutschland gmbh:1 | vodacom lesotho (pty) ltd:1 | vodafone india services private ltd:1 | tks tele kommunikation und service s r l:1 | fastweb telecom sistemas de comunicaã§ãµes ltda:1 | tks network:1 | nowo communications s a:1 | vodacom tanzania ltd:1 | magalajo s a:1 | ghana telecommunications company limited:1,partial,2,verified,Ghana Telecommunications (Vodafone Ghana sold 2023) + Fastweb Brasil (different from Italian Fastweb)
+15,1582,57,3,office of info tech admin for educational development:48 | uninet:8 | uninet sp z o o:1,partial,9,verified,Office of Info Tech vs Uninet x2 — link rationale insufficient
+16,7087,47,1,shared services canada:47,correct,0,verified,single-org
+17,641,44,8,zayo bandwidth:26 | zcolo:6 | zayo infrastructure france sa:3 | network transit holdings llc:3 | globalways gmbh:2 | zayo group llc:2 | fibernet broadband ltd:1 | fibernet telecom:1,correct,0,verified,Zayo group + Fibernet (Zayo brand)
+18,15,44,5,tegna inc:40 | s b multimedia pvt ltd:1 | radiohio incorporated:1 | maxweb multimedia private limited:1 | wbns tv inc:1,partial,2,verified,S B Multimedia + Maxweb Multimedia (Indian) unrelated to Tegna US TV
+19,1197,42,10,ntt communications corporation:13 | dimension data:8 | ntt australia solutions pty ltd:6 | pt ntt indonesia:5 | ntt singapore pte ltd:3 | ntt ltd japan corporation:2 | ntt myanmar co ltd:2 | ntt communications corporation digital transformation:1 | ntt communications corp:1 | ntt cloud communications us inc:1,correct,0,verified,NTT Communications + Dimension Data + regional NTT subsidiaries
+20,52,42,22,marlink as:9 | hyve ltd:4 | virtual radiologic corporation:4 | business zone limited:3 | cognizant technology solutions india pvt ltd:3 | marlink-itc inc:2 | tmg health inc:2 | cognizant trizetto software group inc:1 | belcan corporation:1 | higher one inc:1 | magenic technologies inc:1 | blackboard inc:1 | blackboard:1 | sweetwater sound inc:1 | cognizant technology solution romania s r l:1 | cognizant:1 | atg communications llc:1 | glm media:1 | lev telecom:1 | netspot pty ltd:1 | lev networks llc:1 | providence equity partners llc:1,partial,20,verified,Mixed PE/independent: Cognizant/Blackboard/Belcan/Magenic/Sweetwater not under Providence Equity
+21,151,40,13,cisco systems inc:15 | cisco webex llc:6 | cisco systems ironport division:5 | cisco opendns llc:3 | cisco systems cloud division:2 | webex worldwide b v:2 | aironet:1 | webex broadband internet:1 | stratacom inc:1 | stratacom communications inc:1 | webex communications inc:1 | geotelco limited:1 | cisco systems norway as:1,correct,0,verified,Cisco + Webex/IronPort/OpenDNS/Aironet/Stratacom acquisitions
+22,928,38,3,"joint stock company transtelecom:35 | limited liability company ""ttk-svyaz"":2 | jsc transtelecom:1",correct,0,verified,TransTelecom Russia variants
+23,29,35,22,ntt data information processing services private limited:8 | ntt security gmbh:3 | ntt security (us) inc:2 | ntt new zealand limited:2 | hknet co ltd:2 | ntt cloud infrastructure inc:2 | ntt do brasil telecomunicacoes ltda:1 | accesskenya group ltd is an isp serving:1 | ntt belgium sa:1 | ntt data romania s a:1 | ntt vietnam communication company limited:1 | is internetsolutions limited:1 | internet solutions (kenya):1 | dimension data ltd:1 | intra data communication:1 | data dimensions corp:1 | ntt bizlink inc:1 | ntt security (switzerland) ag:1 | dimension data asia pacific pte ltd:1 | ntt taiwan ltd:1 | ntt security (australia) pty ltd:1 | dimension enterprises inc:1,correct,0,verified,NTT Data + NTT Security + Dimension Data (NTT subsidiary)
+24,6317,35,1,jab wireless inc:35,correct,0,verified,single-org
+25,1291,35,4,slush technologies as v4 transit:27 | citylink ltd:5 | citylink co ltd:2 | citylink:1,correct,0,verified,Slush + CityLink Russian ISP brands; ASINT linkage accepted absent contrary evidence
+26,11735,33,1,islamic republic of iran post pjsc:33,correct,0,verified,single-org
+27,1469,32,3,gonet:30 | pt gonet teknologi indonesia:1 | marvicnet cia ltda:1,partial,1,verified,Marvicnet Cia Ltda (Ecuador) unrelated to Gonet
+28,281,32,4,national aeronautics and space administration:28 | jet propulsion laboratory:2 | nasa deep space network (dsn):1 | nasa goddard space flight center:1,correct,0,verified,NASA/JPL/Goddard/Deep Space Network
+29,361,31,3,electronic arts inc:29 | electronic arts ireland limited:1 | electronic arts canada:1,correct,0,verified,Electronic Arts + EA Ireland + EA Canada
+30,15192,31,1,cabase camara arg de base de datos y serv en linea:31,correct,0,verified,single-org
+31,1262,31,5,telia company ab:8 | telia norge as:8 | telia finland oyj:7 | telia cygate oy:7 | telia cygate ab:1,correct,0,verified,Telia group
+32,102,31,25,unitedhealth group incorporated:5 | catamaran llc:2 | nucleus cloud llc:2 | ingenix inc:1 | kelsey-seybold clinic:1 | amedisys inc:1 | humedica inc:1 | diplomat pharmacy inc:1 | definity health:1 | diplomat distributors (1968) ltd:1 | atrius health inc:1 | alere health llc:1 | change healthcare:1 | monarch healthcare:1 | medica health plans:1 | the advisory board company:1 | the corvallis clinic:1 | optumserve health services inc:1 | orthoalliance mso llc:1 | healthmarkets inc:1 | navihealth inc:1 | lhc group:1 | unitedhealthcare:1 | geha:1 | caremount medical p c:1,partial,1,verified,UnitedHealth + Optum acquisitions; Diplomat Distributors 1968 (Israel) unrelated
+33,12487,30,1,merit network inc:30,correct,0,verified,single-org
+34,137,28,23,unicef:3 | sdnp bangladesh:3 | international atomic energy agency:2 | food and agriculture organization of the united nations:1 | united nations industrial development organization:1 | undp:1 | united nations economic commission for africa:1 | international civil aviation organization:1 | cepal naciones unidas:1 | united nations world food programme:1 | united nations office at vienna:1 | united nation-escap:1 | united nations:1 | united nations office nairobi (unon):1 | united nations high commissioner for refugees:1 | united nations development program:1 | united nations development programme:1 | u n d p (united nations development programme):1 | telecommunication union ltd:1 | united nations children's fund (unicef):1 | union postale universelle:1 | united nations system staff college (unssc):1 | international telecommunication union:1,correct,0,verified,UN system organizations (UN umbrella)
+35,19337,22,1,tierpoint llc:22,correct,0,verified,single-org
+36,1534,18,3,telus communications inc:16 | llc o-net:1 | onet inc:1,partial,2,verified,LLC O-Net (Russia) + Onet Inc unrelated to Telus Canada
+37,1193,17,13,digicel st lucia ltd:3 | digicel jamaica:2 | antigua wireless ventures ltd:2 | digicel pacific ltd:1 | digicel nauru corporation:1 | digicel (aus) pty ltd:1 | digicel cayman limited:1 | transact ltd:1 | digicel barbados ltd:1 | digicel turks and caicos ltd:1 | digicel trinidad and tobago ltd:1 | digicel suriname nv:1 | new millennium telecom services n v:1,correct,0,verified,Digicel regional + Antigua Wireless Ventures (acq 2017)
+38,13019,16,1,network information center mã©xico:16,correct,0,verified,single-org
+39,1194,15,13,chinanet guangdong province network:3 | chinanet hubei province network:1 | chinanet guizhou province network:1 | chinanet hubei province wuhan network:1 | chinanet hubei province shiyan network:1 | chinanet hubei province yichang network:1 | chinanet hubei province huanggang network:1 | chinanet hubei province enshi network:1 | chinanet hubei province xiantao network:1 | chinanet guangdong province dongguan man network:1 | chinanet guangdong province guangzhou man network:1 | chinanet guangdong province shenzhen man network:1 | chinanet guangdong province zhusanjiao man network:1,correct,0,verified,Chinanet province networks (China Telecom)
+40,45,15,15,samsung electronics america inc:1 | joyent inc:1 | lexicon international inc:1 | ast group capital too:1 | harman international industries inc:1 | harman international industries:1 | harman connected services corporation india private limited:1 | samsung r&d institute india-bangalore private limited:1 | samsung austin semiconductor llc:1 | samsung research america inc:1 | tws technologies b v:1 | samsung austin research and development center:1 | samsung electronics:1 | samsung electronics co:1 | mwm communication sarl:1,correct,0,verified,Samsung core + Joyent/Harman acquisitions; small entries traced via Harman
+41,1195,14,12,watchtower bible and tract society of south africa:2 | jehovas zeugen in deutschland k d o r:2 | wachttoren- bijbel en traktaatgenootschap kerkgenootschap:1 | watch tower bible and tract society of britain:1 | watch tower bible and tract society of korea:1 | watch tower bible and tract society of the philippines:1 | the watch tower bible and tract society of india:1 | watchtower bible and tract society of new york inc:1 | watch tower bible and tract society of canada:1 | watch tower bible and tract society:1 | la torre del vigia a r:1 | associaã§ã£o torre de vigia de bã­blias e tratados:1,correct,0,verified,Watchtower Bible / Jehovah's Witnesses orgs across countries
+42,1279,14,4,tucows com co:7 | ting fiber inc:5 | cedar networks:1 | blue ridge websoft llc:1,correct,0,verified,Tucows/Ting + acquired Cedar Networks + Blue Ridge Websoft
+43,1196,13,12,chinanet sichuan province luzhou man network:2 | chinanet core wan central:1 | chinanet sichuan province mianyang man network:1 | chinanet sichuan province guangyuan man network:1 | chinanet sichuan province neijiang man network:1 | chinanet sichuan province leshan man network:1 | chinanet sichuan province meishan man network:1 | chinanet sichuan province dazhou man network:1 | chinanet sichuan province yaan man network:1 | chinanet sichuan province bazhong man network:1 | chinanet sichuan province ziyang man network:1 | chinanet sichuan province ganzi man network:1,correct,0,verified,Chinanet Sichuan province networks (China Telecom)
+44,1199,12,11,deloitte & touche south africa:2 | deloitte services wirtschaftsprufungs gmbh:1 | deloitte llp:1 | deloitte touche tohmatsu services llc:1 | deloitte advisory and management consulting ltd:1 | deloitte & touche:1 | deloitte gmbh wirtschaftspruefungsgesellschaft:1 | deloitte touche tohmatsu services inc:1 | deloitte tohmatsu group llc:1 | deloitte & touche ltda:1 | deloitte consulting india pvt ltd:1,correct,0,verified,Deloitte cross-RIR family
+45,1202,12,7,powernet:3 | llc powernet:3 | powernet telecom:2 | powernet ltd:1 | phs internet e suprimentos ltda - me:1 | f g telecomunicacao ltda:1 | powernet telecomunicacoes:1,partial,3,verified,Cross-region collision: Powernet Russia variants vs PHS/FG/Powernet Telecomunicacoes (Brazil)
+46,1201,11,9,chinanet neimenggu province man network:3 | chinanet fujian province quanzhou idc network:1 | chinanet fujian province zhangzhou idc network:1 | chinanet zhejiang province lishui man network:1 | chinanet sichuan province deyang man network:1 | chinanet hubei province xianning network:1 | chinanet yunnan province idc1 network:1 | chinanet 5g iot guangzhou node:1 | chinanet 5g iot nanjing node:1,correct,0,verified,Chinanet province networks (China Telecom)
+47,113,9,7,fannie mae:3 | comptroller of the currency:1 | treasury limited:1 | the treasury:1 | treasury department:1 | united states department of the treasury:1 | internal revenue service:1,partial,2,verified,US Treasury bureaus + Fannie Mae OK; Treasury Limited / The Treasury non-US
+48,6514,8,1,macquarie technology operations pty limited:8,correct,0,verified,single-org
+49,562,8,4,university of washington:5 | institute for stem cell biology and regenerative medicine:1 | center for educational leadership and technology:1 | kexp:1,correct,0,verified,University of Washington + UW Medicine (stem cell) + UW Center + KEXP (UW radio)
+50,6899,7,1,advania sverige ab:7,correct,0,verified,single-org
+51,1613,7,3,speedcast australia pty limited:4 | speedcast managed services pty limited:2 | speedcast limited:1,correct,0,verified,Speedcast variants
+52,16629,7,1,llc cifrovie seti urala:7,correct,0,verified,single-org
+53,24730,6,1,svensk teleutveckling & produktinnovation stupi ab:6,correct,0,verified,single-org
+54,881,6,2,the new york times company:5 | boston globe media partners llc:1,partial,1,verified,NYT divested Boston Globe in 2013 (sold to John Henry)
+55,4364,6,3,ntt msc sdn bhd:3 | uab nacionalinis telekomunikaciju tinklas:2 | nt&t:1,partial,2,verified,UAB Nacionalinis Telekomunikaciju Tinklas (Lithuania) unrelated to NTT MSC
+56,26835,6,1,guangzhou navigation information technology co ltd:6,correct,0,verified,single-org
+57,21499,6,1,"""r-tel"" llc:6",correct,0,verified,single-org
+58,3539,6,2,via net communication public limited:3 | vianet inc:3,correct,0,verified,Via Net Communication / Vianet variants — accepted
+59,10716,6,1,natural wireless llc:6,correct,0,verified,single-org
+60,6777,5,1,saint gobain group digital & it international sas:5,correct,0,verified,single-org
+61,572,5,2,celcom axiata berhad:4 | bridgenet lc:1,partial,1,verified,Bridgenet LC (St Lucia) unrelated to Celcom Axiata (Malaysia)
+62,2722,5,2,navice consulting:4 | james ledger:1,correct,0,verified,James Ledger appears as person — Navice founder/owner
+63,35524,5,1,truenetwork llc:5,correct,0,verified,single-org
+64,5569,5,1,sap australia pty ltd:5,correct,0,verified,single-org
+65,17250,5,1,llc wildberries:5,correct,0,verified,single-org
+66,1413,5,2,"jsc ""alfa-bank"":4 | closed joint stock company ""alfa-bank"":1",correct,0,verified,Alfa-Bank legal-form variants (CJSC vs JSC)
+67,18723,5,1,asiatech data transmission company:5,correct,0,verified,single-org
+68,2733,5,2,"national system of payment cards joint-stock society:3 | joint-stock company ""national system of payment cards"":2",correct,0,verified,NSPK Russia legal-form variants
+69,3314,5,2,syniverse technologies llc:4 | syniverse technologies messaging aps:1,correct,0,verified,Syniverse Technologies variants
+70,85,5,5,o'shaughnessy asset management llc:1 | fiduciary trust company:1 | franklin resources inc:1 | franklin resources:1 | western asset management company:1,correct,0,verified,Franklin Resources + Western Asset (acq via Legg Mason 2020) + O'Shaughnessy (acq 2021) + Fiduciary Trust
+71,40810,5,1,convergeone holdings inc:5,correct,0,verified,single-org
+72,1246,5,5,flashnet:1 | flash net telecomunicacoes ltda - me:1 | flashnet empreendimentos ltda:1 | peralta leandro nahuel:1 | flashnet provedor ltda me:1,correct,0,verified,Flashnet Brazilian variants + Peralta Leandro Nahuel (founder)
+73,280,4,3,jsc goznak:2 | federal agency for state property management:1 | jsc preprocessing settlement center:1,correct,0,verified,Russian federal entities (Goznak/Federal Property/PSC) — broad gov ownership
+74,1465,4,3,generali zavarovalnica d d:2 | generali versicherung ag:1 | generali:1,correct,0,verified,Generali insurance group
+75,7908,4,1,ameriprise india llp:4,correct,0,verified,single-org
+76,38996,4,1,emerald broadband llc:4,correct,0,verified,single-org
+77,29300,4,1,4on ltd:4,correct,0,verified,single-org
+78,140,4,4,hdfc securities limited:1 | hdfc life insurance company ltd:1 | hdfc bank ltd:1 | housing development finance corporation limited:1,correct,0,verified,HDFC group (Bank/Life/Securities/HDFC Ltd; HDFC merged into HDFC Bank 2023)
+79,40009,3,1,greenfiber internet & dienste gmbh:3,correct,0,verified,single-org
+80,16541,3,1,terrence de kat:3,correct,0,verified,single-org
+81,13131,3,1,x2nsat inc:3,correct,0,verified,single-org
+82,1476,3,3,localnet ltd:1 | globalnet italia s r l:1 | localnet telecom ltda:1,wrong,2,verified,Localnet Ltd vs Globalnet Italia vs Localnet Telecom Brazil — three separate companies
+83,12308,3,1,gameserverkings:3,correct,0,verified,single-org
+84,418,3,3,burroughs inc:1 | loomis ab:1 | loomis armored us llc:1,correct,0,verified,Loomis acquired Burroughs Inc (2024)
+85,1704,3,2,air link communications:2 | air link networks:1,correct,0,verified,Air Link variants
+86,35071,3,1,datavail infotech pvt ltd:3,correct,0,verified,single-org
+87,2237,3,2,infogenius sas:2 | david moes:1,correct,0,verified,David Moes is person — Infogenius owner
+88,19477,3,1,medialine eurotrade ag:3,correct,0,verified,single-org
+89,24669,3,1,consorci de serveis universitaris de catalunya:3,correct,0,verified,single-org
+90,24754,3,1,zoot enterprises inc:3,correct,0,verified,single-org
+91,26940,3,1,corelight inc:3,correct,0,verified,single-org
+92,44956,3,1,rapyd europe hf:3,correct,0,verified,single-org
+93,7994,3,1,nexi payments s p a:3,correct,0,verified,single-org
+94,13023,3,1,virtury cloud private limited:3,correct,0,verified,single-org
+95,10214,3,1,eutelsat s a:3,correct,0,verified,single-org
+96,175,3,2,circle:2 | mypose technologies ad:1,partial,1,verified,Mypose Technologies AD (Bulgaria) unrelated to Circle
+97,929,2,2,lincoln national corporation:1 | jefferson-pilot life insurance company:1,correct,0,verified,Lincoln National acquired Jefferson-Pilot (2006)
+98,3393,2,2,syntax systems ltd llc:1 | syntax systems limited:1,correct,0,verified,Syntax Systems variants
+99,28303,2,1,fortressitx:2,correct,0,verified,single-org
+100,61807,2,1,acem telecom ltda:2,correct,0,verified,single-org
+101,28793,2,1,rapid response monitoring services incorporated:2,correct,0,verified,single-org
+102,3013,2,1,netup llc:2,correct,0,verified,single-org
+103,63121,2,1,vanuatu government:2,correct,0,verified,single-org
+104,35798,2,1,"""permtelecom"" ltd:2",correct,0,verified,single-org
+105,61043,2,1,mcsnet:2,correct,0,verified,single-org
+106,15337,2,1,shopify inc:2,correct,0,verified,single-org
+107,20349,2,1,sleepless server solutions ltd:2,correct,0,verified,single-org
+108,53554,2,1,hostinget telekomunikasyon ticaret ltd sti:2,correct,0,verified,single-org
+109,36443,2,1,j2 global ventures llc:2,correct,0,verified,single-org
+110,5222,2,1,niscayah group ab:2,correct,0,verified,single-org
+111,48460,2,1,airbytes communications srl:2,correct,0,verified,single-org
+112,2214,2,2,dominos's:1 | dominos pizza llc:1,correct,0,verified,Domino's Pizza variants
+113,2250,2,2,deutsche glasfaser wholesale gmbh:1 | deutsche glasfaser business gmbh:1,correct,0,verified,Deutsche Glasfaser variants
+114,565,2,2,telavox ab:1 | erate as:1,correct,0,verified,Telavox acquired Erate AS (2024)
+115,45409,2,1,sdnbucks bv:2,correct,0,verified,single-org
+116,2601,2,2,odete a dos santos me:1 | infinity net:1,correct,0,verified,Brazilian sole proprietor + Infinity Net brand
+117,1027,2,2,oneweb:1 | trustcomm inc:1,correct,0,verified,OneWeb acquired TrustComm (2022)
+118,4311,2,1,bellsouth network solutions inc:2,correct,0,verified,single-org
+119,2060,2,1,callcentric wholesale inc:2,correct,0,verified,single-org
+120,3408,2,2,telecall:1 | telecall telecomunicacoes:1,correct,0,verified,Telecall variants
+121,53914,2,1,ukrainian information systems tov:2,correct,0,verified,single-org
+122,18664,2,1,safaricom limited:2,correct,0,verified,single-org
+123,19442,2,1,daewonpharm:2,correct,0,verified,single-org
+124,27514,2,1,philippine telelgraph & telephone:2,correct,0,verified,single-org
+125,42256,2,1,nhs national services scotland:2,correct,0,verified,single-org
+126,34298,2,1,sofia connect ead:2,correct,0,verified,single-org
+127,5284,2,1,"public joint stock company mining and metallurgical company ""norilsk nickel"":2",correct,0,verified,single-org
+128,11811,2,1,china securities co ltd:2,correct,0,verified,single-org
+129,16361,2,1,hostmein ike:2,correct,0,verified,single-org
+130,59444,2,1,public services commission:2,correct,0,verified,single-org
+131,27861,2,1,"llc ""lure it"":2",correct,0,verified,single-org
+132,25208,2,1,culr llc:2,correct,0,verified,single-org
+133,42687,2,1,"llc ""ukrtele-service"":2",correct,0,verified,single-org
+134,57527,2,1,generacion tecnologica de comunicaciones sociedad limitada:2,correct,0,verified,single-org
+135,55580,2,1,origo ehf:2,correct,0,verified,single-org
+136,25893,2,1,zhejiang ruili information technology co ltd:2,correct,0,verified,single-org
+137,34691,2,1,michigan statewide educational network:2,correct,0,verified,single-org
+138,13017,2,1,ae olfe teknoloji ve ticaret limited sirketi:2,correct,0,verified,single-org
+139,19012,2,1,cloud operation pvt ltd:2,correct,0,verified,single-org
+140,3426,2,2,topnet:1 | topnet mais ltda me:1,correct,0,verified,Topnet variants
+141,17761,2,1,schaeffer's investment research:2,correct,0,verified,single-org
+142,44826,2,1,hopus sas:2,correct,0,verified,single-org
+143,37875,2,1,softsource ltd:2,correct,0,verified,single-org
+144,309,2,2,empire resorts inc:1 | genting malaysia berhad:1,correct,0,verified,Genting Malaysia owns ~84% of Empire Resorts
+145,66232,2,1,wintsec technologies llc:2,correct,0,verified,single-org
+146,24132,2,1,gabon internet exchange (gab-ix):2,correct,0,verified,single-org
+147,25556,2,1,click software india pvt ltd:2,correct,0,verified,single-org
+148,63260,2,1,nuvasive inc:2,correct,0,verified,single-org
+149,11852,2,1,winning partner software development limited:2,correct,0,verified,single-org
+150,26417,1,1,netassist international eood:1,correct,0,verified,single-org
