@@ -141,7 +141,7 @@ def main():
             cells.append(f'{r[4] * 100:>10.2f}% ({r[2]:>3})')
         lines.append('  '.join(cells))
     lines.append('')
-    lines.append(f'{'Dataset':>10}  {'Macro recall':>14}  {'Micro recall':>14}')
+    lines.append(f"{'Dataset':>10}  {'Macro recall':>14}  {'Micro recall':>14}")
     lines.append('-' * 44)
     for name in name_order:
         rows = all_rows[name]

@@ -1,0 +1,21 @@
+aiohttp
+beautifulsoup4
+ddgs
+faiss-cpu
+langchain-core
+langchain-text-splitters
+langgraph
+networkx
+numpy
+pandas
+playwright
+pymilvus
+scikit-learn
+sentence-transformers
+tldextract
+torch
+tqdm
+trafilatura
+transformers
+typing_extensions
+# vllm  (only on the GPU server)

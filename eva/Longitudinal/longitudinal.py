@@ -73,16 +73,17 @@ def analyze(snap_a, snap_b):
 
 def main():
     lines = []
-    lines.append(f'{'Pair':>20} {'common_orgs':>13} {'fams_A':>8} {'fams_B':>8} {'identical':>10} {'Jaccard':>9}')
+    lines.append(f"{'Pair':>20} {'common_orgs':>13} {'fams_A':>8} {'fams_B':>8} {'identical':>10} {'Jaccard':>9}")
     lines.append('-' * 75)
     rows = []
     for a, b in PAIRS:
         r = analyze(a, b)
         rows.append((a, b, r))
-        lines.append(f'{a + ' -> ' + b:>20} {r['common_orgs']:>13,} {r['fams_a']:>8,} {r['fams_b']:>8,} {r['identical']:>10,} {r['jaccard_pct']:>8.2f}%')
+        pair_label = f'{a} -> {b}'
+        lines.append(f"{pair_label:>20} {r['common_orgs']:>13,} {r['fams_a']:>8,} {r['fams_b']:>8,} {r['identical']:>10,} {r['jaccard_pct']:>8.2f}%")
     lines.append('')
     lines.append('Per-pair detail (changes):')
-    lines.append(f'{'Pair':>20} {'changed':>9} {'changed%':>9}  {'enr':>7} {'enr%':>6}  {'ref':>7} {'ref%':>6}')
+    lines.append(f"{'Pair':>20} {'changed':>9} {'changed%':>9}  {'enr':>7} {'enr%':>6}  {'ref':>7} {'ref%':>6}")
     lines.append('-' * 80)
     for a, b, r in rows:
         chg = r['changed_orgs']
@@ -91,7 +92,8 @@ def main():
         chg_pct = chg / r['common_orgs'] * 100 if r['common_orgs'] else 0
         enr_pct = enr / chg * 100 if chg else 0
         ref_pct = ref / chg * 100 if chg else 0
-        lines.append(f'{a + ' -> ' + b:>20} {chg:>9,} {chg_pct:>8.2f}%  {enr:>7,} {enr_pct:>5.1f}%  {ref:>7,} {ref_pct:>5.1f}%')
+        pair_label = f'{a} -> {b}'
+        lines.append(f"{pair_label:>20} {chg:>9,} {chg_pct:>8.2f}%  {enr:>7,} {enr_pct:>5.1f}%  {ref:>7,} {ref_pct:>5.1f}%")
     text = '\n'.join(lines) + '\n'
     print(text, end='')
     out = HERE / 'longitudinal_results.txt'
