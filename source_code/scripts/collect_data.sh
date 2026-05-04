@@ -3,7 +3,7 @@ set -euo pipefail
 
 RUN_DATE="20260315"   # e.g. "20260220"  (YYYYMMDD) ; empty => today
 
-SRC_DIR="${IRR_SRC_DIR:-/path/to/irrs/compressed}"
+SRC_DIR="${IRR_SRC_DIR:-/path/to/whois/compressed}"
 DST_DIR="${BASE_DIR}/input"
 OUT_DIR="${BASE_DIR}/output"
 WHOIS_IPS_DIR="${WHOIS_IPS_SRC_DIR:-/path/to/whois-ips}"

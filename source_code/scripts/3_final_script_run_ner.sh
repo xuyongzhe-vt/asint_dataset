@@ -19,7 +19,7 @@ fi
 cd ${BASE_DIR}/crawling/cleaned_content/
 tar -czf ${BASE_DIR}/crawling/cleaned_htmls.tar.gz .
 
-echo "run ner in ARC"
+echo "run ner on remote HPC"
 cp ${BASE_DIR}/crawling/cleaned_htmls.tar.gz ${ENTRY_STAGE_DIR}/
 cp ${BASE_DIR}/output/org.json ${ENTRY_STAGE_DIR}/
 

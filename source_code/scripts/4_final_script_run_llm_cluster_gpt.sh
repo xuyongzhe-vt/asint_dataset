@@ -1,4 +1,4 @@
-echo "copy zip from ARC"
+echo "copy zip from remote HPC"
 screen -S llm_server -X stuff $'bash ${REMOTE_NER_HOME}/post_process.sh \n echo SCRIPT_DONE\n'
 
 while ! screen -S llm_server -X hardcopy /tmp/screen_llm.log; do sleep 1; done
